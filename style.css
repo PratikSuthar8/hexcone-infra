@@ -359,7 +359,6 @@ body {
 .contact-form input,
 .textarea-group textarea {
 	width: 100%;
-	padding: 0.9rem 1rem 0.9rem 2.5rem;
 	border: 1px solid #ccc;
 	border-radius: 6px;
 	outline: none;
