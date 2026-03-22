@@ -1,45 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>HEXCONE - Building Excellence with Innovatio</title>
-		<meta name="description" content="HEXCONE is a trusted construction and project management company delivering high-quality, sustainable, and innovative infrastructure solutions across residential, commercial, and industrial sectors.">
+		<title>HEXCONE - Building Excellence with Innovation</title>
+		<meta
+			name="description"
+			content="HEXCONE is a trusted construction and project management company delivering high-quality, sustainable, and innovative infrastructure solutions across residential, commercial, and industrial sectors."
+		/>
 		<link rel="icon" type="image/x-icon" href="./Img/Logo-White.png" />
-		<link rel="icon" href="/favicon.png" type="./Img/Logo-White.png" />
 		<link rel="apple-touch-icon" href="./Img/Logo-White.png" />
+
+		<!-- Google Fonts - Poppins -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
 		<meta property="og:locale" content="en_IN" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="HEXCONE - Building Excellence with Innovation" />
-<meta property="og:description" content="HEXCONE is a trusted construction and project management company delivering high-quality, sustainable, and innovative infrastructure solutions across residential, commercial, and industrial sectors." />
-<meta property="og:url" content="https://www.hexconeinfra.com/" />
-<meta property="og:image" href="https://www.hexconeinfra.com/Img/Logo-White.png" />
-<meta property="og:site_name" content="HEXCONE" />
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:title"
+			content="HEXCONE - Building Excellence with Innovation"
+		/>
+		<meta
+			property="og:description"
+			content="HEXCONE is a trusted construction and project management company delivering high-quality, sustainable, and innovative infrastructure solutions across residential, commercial, and industrial sectors."
+		/>
+		<meta property="og:url" content="https://www.hexconeinfra.com/" />
+		<meta
+			property="og:image"
+			href="https://www.hexconeinfra.com/Img/Logo-White.png"
+		/>
+		<meta property="og:site_name" content="HEXCONE" />
+
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 		/>
 		<link rel="stylesheet" href="style.css" />
 		<script src="script.js" defer></script>
-		<script
-			type="text/javascript"
-			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-		></script>
+
+		<!-- EmailJS -->
 		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 	</head>
-	<div id="toast" class="toast"></div>
 
 	<body>
+		<!-- Toast Notification -->
+		<div id="toast" class="toast"></div>
+
 		<!-- Navbar -->
 		<header class="header">
 			<nav class="navbar">
 				<div class="logo">
-					<img
-						src="./Img/Logo.png"
-						alt=""
-						srcset=""
-						class="logo-img"
-					/>
+					<img src="./Img/Logo.png" alt="HEXCONE" class="logo-img" />
 				</div>
 				<div class="hamburger">
 					<span></span>
@@ -50,7 +64,7 @@
 					<li><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#services">Services</a></li>
-					<!-- <li><a href="#projects">Projects</a></li> -->
+					<li><a href="#partners">Partners</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
@@ -72,7 +86,7 @@
 		<section id="about" class="about section">
 			<div class="about-container">
 				<div class="about-img">
-					<img src="./Img/I1.jpeg " alt="Construction Team" />
+					<img src="./Img/I1.jpeg" alt="Construction Team" />
 				</div>
 				<div class="about-content">
 					<h2>About Us</h2>
@@ -96,7 +110,6 @@
 							<i class="fa-solid fa-check"></i> Quality Assurance
 							Excellence
 						</li>
-
 						<li>
 							<i class="fa-solid fa-check"></i> Timely Budget
 							Delivery
@@ -152,35 +165,28 @@
 			</div>
 		</section>
 
-		<!-- Projects Section
-		<section id="projects" class="projects section">
+		<!-- ====================== CLEAN REDESIGN - PARTNERS ====================== -->
+		<section id="partners" class="partners section">
 			<div class="container">
-				<h2>Recent Projects</h2>
-				<div class="project-gallery">
-					<div class="project-item">
+				<h2>Our Associate Partners</h2>
+				<div class="partners-grid">
+					<div class="partner-card">
 						<img
-							src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
-							alt="Project 1"
+							src="./Img/partner1.jpg"
+							alt="Associate Partner 1"
+							class="partner-logo"
 						/>
-						<h4>Highrise Tower</h4>
 					</div>
-					<div class="project-item">
+					<div class="partner-card">
 						<img
-							src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7"
-							alt="Project 2"
+							src="./Img/partner2.jpg"
+							alt="Associate Partner 2"
+							class="partner-logo"
 						/>
-						<h4>Commercial Complex</h4>
-					</div>
-					<div class="project-item">
-						<img
-							src="https://images.unsplash.com/photo-1503387762-592deb58ef4e"
-							alt="Project 3"
-						/>
-						<h4>Residential Villas</h4>
 					</div>
 				</div>
 			</div>
-		</section> -->
+		</section>
 
 		<!-- Contact Section -->
 		<section id="contact" class="contact section">
@@ -238,10 +244,12 @@
 
 					<div class="contact-details">
 						<h3>Get in Touch</h3>
-						<p><i class="fa-solid fa-phone"></i> +91 838208 92976</p>
+						<p>
+							<i class="fa-solid fa-phone"></i> +91 838208 92976
+						</p>
 						<p>
 							<i class="fa-solid fa-envelope"></i>
-							hexconeinfra@gmaill.com
+							hexconeinfra@gmail.com
 						</p>
 						<p>
 							<i class="fa-solid fa-location-dot"></i> 404, Square
@@ -252,7 +260,8 @@
 								href="https://www.facebook.com/people/Hexcone-Infra/61579144756289/"
 								><i class="fa-brands fa-facebook-f"></i
 							></a>
-							<a href="linkedin.com/company/hexcone-pmc"
+							<a
+								href="https://www.linkedin.com/company/hexcone-pmc"
 								><i class="fa-brands fa-linkedin-in"></i
 							></a>
 							<a href="https://www.instagram.com/hexconeinfra/"

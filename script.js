@@ -24,7 +24,7 @@ document.querySelectorAll('.nav-links a[href^="#"]').forEach((link) => {
 
 // ====== Scroll Animations ======
 const revealElements = document.querySelectorAll(
-	".section, .service-item, .project-item"
+	".section, .service-item, .project-item, .partner-img",
 );
 
 const revealOnScroll = () => {
@@ -68,7 +68,7 @@ function showToast(message, type = "success") {
 		emailjs.init("2_da1t6wSjuDoCc7w");
 	} else {
 		console.warn(
-			"EmailJS library not loaded. Make sure you added the EmailJS script in <head>."
+			"EmailJS library not loaded. Make sure you added the EmailJS script in <head>.",
 		);
 	}
 })();
@@ -90,7 +90,7 @@ if (contactForm) {
 				console.error("EmailJS error:", error);
 				showToast(
 					"❌ Failed to send message. Try again later.",
-					"error"
+					"error",
 				);
 			});
 	});
