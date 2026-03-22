@@ -383,9 +383,20 @@ body {
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 	border-top: 4px solid var(--primary);
 }
-.contact-details i {
+.contact-details h1 {
 	color: var(--primary);
-	font-size: 1.1rem;
+}
+.contact-details i {
+	/* margin-right: 10px; */
+	color: var(--primary);
+	font-size: 1.5rem;
+}
+.contact-details p {
+	/* font-size: 1rem; */
+	margin-top: 1.5rem;
+}
+.contact-details p i {
+	margin-right: 10px;
 }
 .social-icons {
 	margin-top: 1.5rem;
