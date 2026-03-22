@@ -359,6 +359,7 @@ body {
 .contact-form input,
 .textarea-group textarea {
 	width: 100%;
+	padding: 0.9rem 1rem 0.9rem 2.5rem;
 	border: 1px solid #ccc;
 	border-radius: 6px;
 	outline: none;
@@ -366,7 +367,6 @@ body {
 .textarea-group {
 	display: grid;
 	grid-template-columns: auto 1fr;
-	padding: 0.8rem 1rem;
 }
 .contact-btn {
 	background: var(--primary);
@@ -383,16 +383,32 @@ body {
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 	border-top: 4px solid var(--primary);
 }
+.contact-details i {
+	color: var(--primary);
+	font-size: 1.1rem;
+}
+.social-icons {
+	margin-top: 1.5rem;
+}
+
 .social-icons a {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 	width: 40px;
 	height: 40px;
-	border: 1px solid var(--primary);
 	border-radius: 50%;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
+	background: #fff;
+	color: var(--primary);
+	font-size: 1.1rem;
 	margin-right: 0.7rem;
 	transition: 0.3s;
+	text-decoration: none;
+	border: 1px solid var(--primary);
+}
+
+.social-icons a:hover {
+	transform: translateY(-4px) scale(1.2);
 }
 
 /* Footer */
