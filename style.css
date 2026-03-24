@@ -388,16 +388,23 @@ body {
 }
 .contact-details i {
 	/* margin-right: 10px; */
+	/* text-decoration: none; */
 	color: var(--primary);
 	font-size: 1.5rem;
 }
+
 .contact-details p {
 	/* font-size: 1rem; */
 	margin-top: 1.5rem;
+	text-decoration: none;
+}
+.contact-details p:hover {
+	cursor: pointer;
 }
 .contact-details p i {
 	margin-right: 10px;
 }
+
 .social-icons {
 	margin-top: 1.5rem;
 }
